@@ -7,20 +7,27 @@
     
   // });
 
-  $('.box1').on('click', 'h2', function(event){
-    var btn = $(event.target);
-    btn.addClass('box2');
-    btn.removeClass('box2');
-  });
+  // $('.box1').on('click', 'h2', function(event){
+  //   var btn = $(event.target);
+  //   btn.addClass('box2');
+  //   btn.removeClass('box2');
+  // });
 
-  $('.box2').on('click', 'h2', function(event){
-    var btn = $(event.target);
-    btn.addClass('box3');
-    btn.removeClass('box3');
-  });
+  // $('.box2').on('click', 'h2', function(event){
+  //   var btn = $(event.target);
+  //   btn.addClass('box3');
+  //   btn.removeClass('box3');
+  // });
 
-  $('.box3').on('click', 'h2', function(event){
-    var btn = $(event.target);
-    btn.addClass('box1');
-    btn.removeClass('box1');
-  });
+  // $('.box3').on('click', 'h2', function(event){
+  //   var btn = $(event.target);
+  //   btn.addClass('box1');
+  //   btn.removeClass('box1');
+  // });
+
+$('h2').on('click' , function(event) {
+var btn = $(event.target);
+btn.siblings().addClass('para');
+btn.parent().siblings().find('.para').removeClass('para').addClass('hide');
+console.log("clicked");
+});

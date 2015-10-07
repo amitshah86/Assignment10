@@ -1,38 +1,31 @@
 .container {
-  margin-right: 70%;
-  width: 40%;
+  width: 400px;
   border: 1px solid #3fc6d1;
-}
+  overflow: hidden; }
+
 h2 {
-border-bottom: 1px solid black;
-background-color: #2dc5d8;
-color: white;
-margin: 0 auto;
-font-family: 'Roboto Slab', serif;
-font-size: 20px;
-transition: ease 1s;
-}
+  border-bottom: 1px solid black;
+  background-color: #2dc5d8;
+  color: white;
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  transition: 1s ease; }
 
 .box1 {
   /*height: 27px;*/
   overflow: hidden;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .hide {
-height: 0px;
-margin: 0px;
-padding: 0px;
+  height: 0px;
+  margin: 0px;
+  padding: 0px; }
 
-}
 .box2 {
-  height: 27px;
   overflow: hidden;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
-.box3 {
-  height: 27px;
-  overflow: hidden;
-  cursor: pointer;
-}
+.para {
+  height: 100px;
+  overflow: hidden; }
