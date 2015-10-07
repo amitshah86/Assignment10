@@ -1,27 +1,38 @@
 .container {
   margin-right: 70%;
   width: 40%;
-  border: 1px solid black;
+  border: 1px solid #3fc6d1;
 }
 h2 {
 border-bottom: 1px solid black;
 background-color: #2dc5d8;
 color: white;
-margin-top: 0px;
+margin: 0 auto;
 font-family: 'Roboto Slab', serif;
 font-size: 20px;
+transition: ease 1s;
 }
 
 .box1 {
-  height: 27px;
+  /*height: 27px;*/
   overflow: hidden;
-  
+  cursor: pointer;
+}
+
+.hide {
+height: 0px;
+margin: 0px;
+padding: 0px;
+
 }
 .box2 {
   height: 27px;
   overflow: hidden;
+  cursor: pointer;
 }
+
 .box3 {
   height: 27px;
   overflow: hidden;
+  cursor: pointer;
 }
